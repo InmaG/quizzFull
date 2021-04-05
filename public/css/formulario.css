@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    background:url("../img/piarra3.jpg");
+    
+    
+} 
+#wrapper{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Bad Script', cursive;
+    font-size: 35px;
+    text-align: center;
+    color:white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+   
+} 
+
+.respuestas {
+
+  font-family: 'Bad Script', cursive;
+  font-size: 19px;
+  text-align: center;
+  color:white;
+  display: flex;
+  flex-flow:column;
+  margin: 10px;
+
+
+}
+
+.circulosinputs{
+  visibility: hidden;
+  width: 0%;
+  height: 0%;
+  margin: 0%;
+}
+
+p{
+  font-family: 'Bad Script', cursive;
+  font-size: 19px;
+  text-align: center;
+  /* border-radius: 50%; */
+  /* border-style: solid; */
+   color:white;
+
+}
+.titulo{
+  font-family: 'Bad Script', cursive;
+  color:white;
+  text-align: center;
+
+}
+.controls{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.labelcorrect{
+  background:rgb(53, 85, 53);
+  border: 1px solid rgb(53, 85, 53);
+}
+
+.labelerror{
+
+  background: rgb(83, 19, 19);
+  border: 1px solid rgb(83, 19, 19);
+
+}
+.enlace{
+
+  font-size: 18px;
+  font-family: 'Bad Script', cursive;
+  color:white;
+  /* font-weight: bold; */
+  padding:10px 20px;
+  border-bottom-style: dotted;
+  }
+
+  .a{
+    text-decoration: none;
+    font-family: 'Bad Script', cursive;
+    color:white;
+    font-size: 21px;
+    border-bottom-style: dotted;
+    border-bottom-width: thick;
+  }
+
+
+  .login{
+      
+    background-color: #bec0be;
+      border: white;
+      color: white;
+      padding: 10px 29px;
+      text-align: center;
+      /* text-decoration: none; */
+      display: inline-block;
+      font-family: 'Bad Script', cursive;
+      font-size: 22px;
+      margin: 4px 2px;
+      cursor: pointer;
+      transition-duration: 0.4s;
+      border-bottom-style: dotted;
+      
+    }
+    
+    .login {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+    .login:hover {
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    } 
+.editdelete{
+      color: white;
+      padding: 10px 29px;
+      text-align: center;
+      font-family: 'Bad Script', cursive;
+      font-size: 19px;
+      cursor: pointer;
+      
+      flex-wrap: wrap;
+
+}

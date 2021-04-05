@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Great+Vibes&display=swap" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="../public/css/login.css">
+
+</head>
+<body>
+    <!-- <form class="formContainerLogin">
+        <div class="">
+            <h2 class="logTitle">Login</h2>
+        </div>
+
+        <div class="">
+            <h2 class="logText">Introduce aquí tu email</h2>
+            <input type="email" required name="email" class="inputsEntradaLog" id="inputEmail" placeholder="teacher@thebridge.com"/>
+        </div>
+
+        <div class="wrapperLogin">
+            <h2 class="logText">Introduce aquí tu contraseña</h2>
+            <input type="password" required name="password" class="inputsEntradaLog" id="inputPass" placeholder="Admin_1234">
+        </div>
+
+        <div>
+            <button type="button" class="logContainer" id="continueBtn"> Continuar</button>
+        </div>
+
+        <div>
+            <a href="index.html" class="logContainer" id="backBtn">Volver</a>
+        </div>
+
+    </form> -->
+
+    <form class="login-form">
+        <p class="login-text">
+            <div class="">
+                <h2 class="logTitle">Login</h2>
+            </div>
+    
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-lock fa-stack-1x"></i>
+          </span>
+        </p>
+        <input type="email" class="login-username" autofocus="true" required="true" placeholder="teacher@thebridge.com" />
+        <input type="password" class="login-password" required="true" placeholder="Admin_1234" />
+        <input type="submit" name="Login" value="Login" class="login-submit" />
+      </form>
+      <a href="#" class="login-forgot-pass">forgot password?</a>
+      <div class="underlay-photo"></div>
+      <div class="underlay-black"></div> 
+      <div>
+        <button type="button" class="logContainer" id="continueBtn"> Continuar</button>
+    </div>
+
+    <div>
+        <a href="index.html" class="logContainer" id="backBtn">Volver</a>
+    </div>
+
+    <script src="js/login.js"></script>
+</html>

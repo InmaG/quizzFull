@@ -1,0 +1,182 @@
+[
+    {
+        "title": "¿Cuál es el animal más grande del mundo?",
+        "correctAnswer": 1,
+        "answers": [
+            {
+                "label": "Orca",
+                "id": "orca",
+                "name": "animal",
+                "value": "orca"
+            },
+
+            {
+                "label": "Ballena azul",
+                "id": "ballena-azul",
+                "name": "animal",
+                "value": "ballena-azul"
+            },
+
+            {
+                "label": "Pitón reticulada",
+                "id": "piton-reticulada",
+                "name": "animal",
+                "value": "piton-reticulada"
+            },
+
+            {
+                "label": "Titanovoa",
+                "id": "tita-novoa",
+                "name": "animal",
+                "value": "tita-novoa"
+            }
+
+
+        ]
+    },
+    {
+        "title": "¿Cuanto dura el embarazo de un elefante?",
+        "correctAnswer": 2,
+        "answers": [
+            {
+                "label": "6 meses",
+                "id": "seis-meses",
+                "name": "elefante",
+                "value": "seis-meses"
+            },
+
+            {
+                "label": "12 meses",
+                "id": "doce-meses",
+                "name": "elefante",
+                "value": "doce-meses"
+            },
+
+            {
+                "label": "22 meses",
+                "id": "veintidos-meses",
+                "name": "elefante",
+                "value": "veintidos-meses"
+            },
+
+            {
+                "label": "18 meses",
+                "id": "dieciocho-meses",
+                "name": "elefante",
+                "value": "dieciocho-meses"
+            }
+
+        ]
+    },
+    {
+        "title": "¿Cuantos huesos tiene el ser humano?",
+        "correctAnswer": 3,
+        "answers": [
+            {
+                "label": "200 huesos",
+                "id": "doscientos-huesos",
+                "name": "huesos",
+                "value": "doscientos-huesos"
+            },
+
+            {
+                "label": "114 huesos",
+                "id": "cientocatorce-meses",
+                "name": "huesos",
+                "value": "cientocatorce-meses"
+            },
+
+            {
+                "label": "110 meses",
+                "id": "cientodiez-meses",
+                "name": "huesos",
+                "value": "cientodiez-meses"
+            },
+
+            {
+                "label": "206 huesos",
+                "id": "doscientosseis-huesos",
+                "name": "huesos",
+                "value": "doscientosseis-huesos"
+            }
+
+        ]
+
+
+
+    },
+    {
+        "title": "¿Cuantos corazones tiene un pulpo?",
+        "correctAnswer": 0,
+        "answers": [
+            {
+                "label": "3 corazones",
+                "id": "tres-corazones",
+                "name": "corazones",
+                "value": "tres-corazones"
+            },
+
+            {
+                "label": "8 corazones",
+                "id": "ocho-corazones",
+                "name": "corazones",
+                "value": "ocho-corazones"
+            },
+
+            {
+                "label": "1 corazón",
+                "id": "un-corazon",
+                "name": "corazones",
+                "value": "un-corazon"
+            },
+
+            {
+                "label": "2 corazones",
+                "id": "dos-corazones",
+                "name": "corazones",
+                "value": "dos-corazones"
+            }
+
+        ]
+
+
+
+    },
+    {
+        "title": "¿Cuál de estos animales es ovíparo?",
+        "correctAnswer": 1,
+        "answers": [
+            {
+                "label": "Delfín",
+                "id": "delfin",
+                "name": "oviparo",
+                "value": "delfin"
+            },
+
+            {
+                "label": "Cóndor",
+                "id": "condor",
+                "name": "oviparo",
+                "value": "condor"
+            },
+
+            {
+                "label": "Hámster",
+                "id": "hamster",
+                "name": "oviparo",
+                "value": "hamster"
+            },
+
+            {
+                "label": "Armadillo",
+                "id": "amardillo",
+                "name": "oviparo",
+                "value": "amardillo"
+            }
+
+        ]
+
+
+
+    }
+]
