@@ -143,10 +143,10 @@ router.put('/editQuestions', async (req, res) => {
         const _id = req.params.id 
         const { title, correctAnswer,answers } = req.body
 
-        let question = await Question.findOne({_id})
+        let question = await Questions.findOne({_id})
 
         if(!question){
-            question = await Question.save({
+            question = await Questions.save({
                 title,
                 correctAnswer,
                 answers

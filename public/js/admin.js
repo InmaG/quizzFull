@@ -8,8 +8,8 @@ function readQuestions() {
     fetch('/allquestions')
     .then(response => response.json())
     .then(data => {
-        console.log(data.data);
-        data.data.map(elem => printQuestions(elem))
+        console.log(data);
+        data.map(elem => printQuestions(elem))
     })
     .catch(err => console.log(err))
 }
@@ -52,7 +52,8 @@ readQuestions() // Invocamos a la función allQuestions, directamente al abrir e
 
 //3. Función que borra el DOM
 function removeBody(){
-    document.querySelector("wrapper").querySelectorAll("*").forEach(elem => elem.remove())
+    
+    document.querySelectorAll("*").forEach(elem => elem.remove())
 }
 
 //4. Crear las preguntas en Front.
@@ -92,7 +93,7 @@ function createAnswer(){
     // Selector
     let selectorAns = document.createElement("select");
     selectorAns.setAttribute("id", "select");
-    wrapper.appendChild(selectorAns);
+    main.appendChild(selectorAns);
 
                 // Las opciones del selectorAns anterior, preñadas en el propio selector y con valores y texto como yo elija.
                 let opt1 = document.createElement("option");
@@ -202,33 +203,33 @@ function editAnswer(elem){
     let inputTitle = document.createElement("input");
     inputTitle.setAttribute("value", elem.pregunta);
     inputTitle.setAttribute("class", "inputTitle");
-    wrapper.appendChild(inputTitle);
+    main.appendChild(inputTitle);
 
     // Respuestas
     let inputAns1 = document.createElement("input");
     inputAns1.setAttribute("value", elem.respuesta[0]);
     inputAns1.setAttribute("class", "inputAns");
-    wrapper.appendChild(inputAns1);
+    main.appendChild(inputAns1);
 
     let inputAns2 = document.createElement("input");
     inputAns2.setAttribute("value", elem.respuesta[1]);
     inputAns2.setAttribute("class", "inputAns");
-    wrapper.appendChild(inputAns2);
+    main.appendChild(inputAns2);
 
     let inputAns3 = document.createElement("input");
     inputAns3.setAttribute("value", elem.respuesta[2]);
     inputAns3.setAttribute("class", "inputAns");
-    wrapper.appendChild(inputAns3);
+    main.appendChild(inputAns3);
 
     let inputAns4 = document.createElement("input");
     inputAns4.setAttribute("value", elem.respuesta[3]);
     inputAns4.setAttribute("class", "inputAns");
-    wrapper.appendChild(inputAns4);
+    main.appendChild(inputAns4);
 
     // Selector
     let selectorAns = document.createElement("select");
     selectorAns.setAttribute("id", "select");
-    wrapper.appendChild(selectorAns);
+    main.appendChild(selectorAns);
 
                 // Las opciones del selectorAns anterior, preñadas en el propio selector y con valores y texto como yo elija.
                 let opt1 = document.createElement("option");
@@ -259,7 +260,7 @@ function editAnswer(elem){
     let submitBtn = document.createElement("button");
     submitBtn.textContent = "Enviar pregunta";
     submitBtn.setAttribute("id", "submitBtn");
-    wrapper.appendChild(submitBtn);
+    main.appendChild(submitBtn);
 
     submitBtn.addEventListener("click", () => {
         editDBAnswer(inputTitle.value, inputAns1.value, inputAns2.value, inputAns3.value, inputAns4.value, Number(selectorAns.value), elem._id)
